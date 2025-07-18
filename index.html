@@ -1,82 +1,223 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishal Kumar | Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Main CSS & Swiper -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+</head>
+<body>
+  <!-- Background effects -->
+  <div id="tsparticles"></div>
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="" type="image/x-icon">
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav>
+      <h1>Vishal Kumar</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#services">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <!--=============== BOXICONS ===============-->
-        
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+   <section class="home">
+  <div class="home__content">
+    <div class="home__img-container">
+      <img src="assets/img/about.jpg" alt="Profile" class="profile-img animated-profile-img">
+    </div>
+    <p class="home__subtitle">Hello, I'm</p>
+    <h1 class="home__name">Vishal Kumar</h1>
+    <h3 class="home__role">MCA Student | Cybersecurity & App Development Enthusiast</h3>
+    <div class="home__buttons">
+    <a href="assets/pdf/VishalKumar_InternshalaResume.pdf" class="button" download>Download CV</a>
+      <a href="#about" class="button button--alt">About Me</a>
+    </div>
+  </div>
+</section>
 
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="">
+    <!--=============== ABOUT ===============-->
+    <section class="about section glass-3d-popup reveal" id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about3d__container">
+        <div class="about3d__img-wrap" id="about-slider"> 
+           <img src="assets/img/image_4.jpg" class="about3d__img professional-rect-img" alt="Vishal Kumar">
+          <img src="assets/img/image_3.jpg" class="about3d__img" alt="Vishal Kumar 2">
+          <img src="assets/img/image_2.jpg" class="about3d__img" alt="Vishal Kumar 3">
+        </div>
+        <div class="about3d__content">
+          <div class="about3d__desc">
+            <div class="about3d__title">
+              <span>Motivated MCA Second-Year Student</span>
+            </div>
+            <p>
+              Passionate about cybersecurity, app development, and AI/ML. I thrive on building secure, user-centric digital solutions that have a real-world impact. <br>
+              <span style="color:#c9a8fd;">Known for my innovative mindset and hands-on technical skills, I am driven to solve complex challenges through technology.</span>
+            </p>
+            <p>
+              <b>Current Focus:</b> Advanced cloud security, phishing detection, and AI-powered automation.<br>
+              <b>Strengths:</b> Collaboration, leadership, fast learning, and delivering under pressure.
+            </p>
+          </div>
+          <ul class="about3d__info">
+            <li><b>Location:</b> Pancard Club Road, Pune – 411045</li>
+            <li><b>Interests:</b> Innovation, Security, AI/ML, App Development, Real-world Tech Solutions</li>
+            <li><b>Proficient in:</b> Java, Python, MySQL, AI, ML, Cybersecurity, App Development</li>
+          </ul>
+          <h3>Education</h3>
+          <ul>
+            <li><b>MCA:</b> Dr. Vishwanath Karad MIT-WPU, Pune (2024–2026), CGPA: 7.5 (Current Sem)</li>
+            <li><b>BCA:</b> International School of Management, Patna (2020–2023), CGPA: 7.81</li>
+            <li><b>Class XII:</b> Diksha International School, Bhagalpur, 62%</li>
+            <li><b>Class X:</b> Sushant Public High School, Muzaffarpur, 76%</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-        <title> Responsive portfolio website Ansel </title>
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="header" id="header">
-            
-        </header>
+    <!--=============== SKILLS ===============-->
+    <section class="skills section glass-3d-popup reveal" id="skills">
+  <h2>Skills</h2>
+  <ul class="skills-list">
+    <li class="skill-box">Java</li>
+    <li class="skill-box">Python</li>
+    <li class="skill-box">MySQL</li>
+    <li class="skill-box">AI / ML</li>
+    <li class="skill-box">Cybersecurity</li>
+    <li class="skill-box">Cloud Integration</li>
+    <li class="skill-box">App Development</li>
+    <li class="skill-box">Data Structures & Algorithms</li>
+  </ul>
+</section>
 
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <!--=============== HOME ===============-->
-            <section class="home section" id="home">
-                
-            </section>
-            
-            <!--=============== ABOUT ===============-->
-            <section class="about section" id="about">
-                
-            </section>
 
-            <!--=============== SKILLS ===============-->
-            <section class="skills section" id="skills">
-                
-            </section>
+    <!--=============== ACHIEVEMENTS / CERTIFICATIONS ===============-->
+    <section class="achievements section glass-3d-popup reveal" id="services">
+      <h2 class="section-title">Achievements & Certifications</h2>
+      <div class="achievements__container">
+        <div class="achievement__card glass">
+          <img src="assets/img/idethoncertificate_.jpg" alt="MIT-WPU Ideathon Winner" class="achievement__img">
+          <div class="achievement__content">
+            <h3>Winner, MIT-WPU Hackathon – Ideathon Genre (2025)</h3>
+            <p>Got appreciated for developing an innovative cybersecurity solution in the Ideathon genre.</p>
+          </div>
+        </div>
+        <div class="achievement__card glass">
+          <img src="assets/img/Vishal_Kumar_IT_Conclave_2022_Certificate..png" alt="IT Conclave Award" class="achievement__img">
+          <div class="achievement__content">
+            <h3>1st Prize, IT Conclave Innovation Competition</h3>
+            <p>Awarded for presenting a prototype of a cutting-edge project for real world solution.</p>
+          </div>
+        </div>
+        <div class="achievement__card glass">
+          <img src="assets/img/googlecertificate.jpg" alt="Cybersecurity Certification" class="achievement__img">
+          <div class="achievement__content">
+            <h3>Certified in Cybersecurity, by Google</h3>
+            <p>Completed a 6-month course of cybersecurity by Google.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <!--=============== SERVICES ===============-->
-            <section class="services section">
-                
-            </section>
+    <!--=============== PORTFOLIO / PROJECTS ===============-->
+    <section class="portfolio section glass-3d-popup reveal" id="portfolio">
+      <h2 class="section-title">My Projects</h2>
+      <div class="portfolio__filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter=".web">Web</button>
+        <button class="filter-btn" data-filter=".app">App</button>
+        <button class="filter-btn" data-filter=".security">Security</button>
+        <button class="filter-btn" data-filter=".python">Python</button>
+      </div>
+      <div class="portfolio__content">
+        <div class="portfolio__card mix app security">
+          <h3>Phishing_Detector – Phishing URL Detection Tool</h3>
+          <p>
+            Detects phishing attacks by analyzing URLs with AI.<br>
+            Real-time alerts for malicious links.<br>
+            <span class="portfolio__tags">#AI #Security #App</span>
+          </p>
+        </div>
+        <div class="portfolio__card mix app security web">
+          <h3>Cloud-Based File Encryption and Decryption</h3>
+          <p>
+            Java-based secure file encryption & storage.<br>
+            Intruder detection: photo capture, location log, PC lock on wrong password.<br>
+            <span class="portfolio__tags">#Java #Security #App #Web</span>
+          </p>
+        </div>
+        <div class="portfolio__card mix python app">
+          <h3>Medical Inventory System</h3>
+          <p>
+            Python + Tkinter tool for medicine stock, expiry, and alerts.<br>
+            <span class="portfolio__tags">#Python #App</span>
+          </p>
+        </div>
+      </div>
+    </section>
 
-            <!--=============== WORK ===============-->
-            <section class="work section" id="work">
-                
-            </section>
+    <!--=============== CONTACT ===============-->
+    <section class="contact section glass-3d-popup reveal" id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:contactvishal11@gmail.com">contactvishal11@gmail.com</a></li>
+        <li>Phone: <a href="tel:+917050526187">+91-7050526187</a></li>
+        <li>Location: Pune, India</li>
+      </ul>
+      <p>
+        <a href="mailto:contactvishal11@gmail.com">Send a Message</a>
+      </p>
+    </section>
+  </main>
 
-            <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section">
-                
-            </section>
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+    <p>© 2024 Vishal Kumar. All rights reserved.</p>
+  </footer>
 
-            <!--=============== CONTACT ===============-->
-            <section class="contact section" id="contact">
-                
-            </section>
-        </main>
+  <!-- JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.3.0/tsparticles.bundle.min.js"></script>
+  <script src="assets/js/scrollreveal.min.js"></script>
+  <script src="assets/js/mixitup.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
 
-        <!--=============== FOOTER ===============-->
-        <footer class="footer">
-            
-        </footer>
+  <!-- About Image Carousel (standalone) -->
+  <script>
+    // Animated Particles background
+    tsParticles.load("tsparticles", {
+      fullScreen: { enable: false },
+      particles: {
+        number: { value: 70 },
+        color: { value: "#bdaaff" },
+        shape: { type: "circle" },
+        opacity: { value: 0.14 },
+        size: { value: 2.4 },
+        move: { enable: true, speed: 0.7, direction: "none", outMode: "out" }
+      },
+      interactivity: { events: { onhover: { enable: false }, onclick: { enable: false } } }
+    });
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
-
-        <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
-
-        <!--=============== MIXITUP FILTER ===============-->
-        <script src=""></script>
-
-        <!--=============== MAIN JS ===============-->
-        <script src=""></script>
-    </body>
+    // Simple image slider for about section
+    const aboutImgs = document.querySelectorAll('.about3d__img');
+    let current = 0;
+    setInterval(() => {
+      aboutImgs[current].classList.remove('active');
+      current = (current + 1) % aboutImgs.length;
+      aboutImgs[current].classList.add('active');
+    }, 2200);
+  </script>
+</body>
 </html>
